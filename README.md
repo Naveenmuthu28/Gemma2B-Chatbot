@@ -19,16 +19,16 @@ This is a local chatbot web application powered by Google's Gemma 2B Instruction
        ```bash
        git clone https://github.com/yourusername/gemma2b-chatbot.git
        cd gemma2b-chatbot
-       ```
+
 ### 2. Install Requirements
   Make sure you have Python 3.9–3.11 installed.
        ```bash
        pip install -r requirements.txt
-       ```
+       
    Or manually install:
         ```bash
         pip install torch transformers gradio
-        ```
+       
 ### 3. Create a account and login to Hugging Face
   - search for Gemma 2B model and accept terms.
   - Go to tokens page, create new token in read mode and copy it.
